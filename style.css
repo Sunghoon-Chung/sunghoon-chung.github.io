@@ -91,7 +91,7 @@ main {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 30px;
     color: #202124;
     font-weight: 400;
@@ -159,6 +159,6 @@ footer {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
