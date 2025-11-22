@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunghoon Chung - Home</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -28,34 +32,32 @@
         </div>
     </header>
 
-    <main class="container">
-        <section class="content-section">
-            <h1>Welcome to my Homepage :)</h1>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to my Homepage :)</h1>
+                <p class="hero-subtitle">Sharing my research and thoughts on Economics.</p>
+                <a href="CV_Chung_EN.pdf" target="_blank" class="btn-primary">Download CV</a>
+            </div>
+        </section>
 
-            <div class="info-block">
+        <section class="container content-grid">
+            <div class="card">
                 <h2>Research Interests</h2>
-                <ul>
+                <ul class="interest-list">
                     <li>International Trade</li>
                     <li>Economic Development</li>
                     <li>Environmental Economics</li>
                 </ul>
             </div>
 
-            <div class="info-block">
+            <div class="card">
                 <h2>Contact Information</h2>
-                <p>
-                    Dept. of Industry & Market Policy<br>
-                    Korea Development Institute (KDI)<br>
-                    Email: sunghoon.chung at kdi.re.kr
-                </p>
-            </div>
-
-            <div class="info-block">
-                <h2>Curriculum Vitae</h2>
-                <p>
-                    <a href="CV_Chung_EN.pdf" target="_blank"
-                        class="btn-link">Download CV</a>
-                </p>
+                <div class="contact-info">
+                    <p><strong>Dept. of Industry & Market Policy</strong></p>
+                    <p>Korea Development Institute (KDI)</p>
+                    <p class="email">Email: sunghoon.chung at kdi.re.kr</p>
+                </div>
             </div>
         </section>
     </main>
