@@ -377,12 +377,15 @@ main {
 }
 
 .contact-info p {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 }
 
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
 .contact-info .email {
-    margin-top: 15px;
     color: #555;
 }
 
@@ -578,7 +581,6 @@ footer {
 }
 
 .contact-info .email {
-    margin-top: 15px;
     color: #555;
 }
 
@@ -774,7 +776,6 @@ footer {
 }
 
 .contact-info .email {
-    margin-top: 15px;
     color: #555;
 }
 
@@ -865,13 +866,13 @@ footer {
 
 .publication-list ul,
 .publication-list ol {
-    margin-left: 20px;
+    margin-left: 0;
     list-style: none;
 }
 
 .publication-list li {
-    margin-bottom: 15px;
-    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
     position: relative;
 }
 
