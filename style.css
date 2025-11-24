@@ -23,7 +23,7 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     color: var(--text-color);
-    background-color: rgba(250, 245, 235, 0.95);
+    background-color: rgba(224, 228, 232, 0.95);
     /*  background-image: url('watercolor2.jpg'); */
     background-size: cover;
     background-position: center;
@@ -371,17 +371,15 @@ main {
 
 .interest-list li {
     margin-bottom: 12px;
-    padding-left: 20px;
+    padding-left: 28px;
     position: relative;
     font-family: 'Lato', sans-serif;
 }
 
 .interest-list li::before {
-    content: '•';
-    color: var(--accent-color);
+    content: '💡';
     position: absolute;
     left: 0;
-    font-weight: bold;
 }
 
 .contact-info p {
@@ -475,10 +473,10 @@ footer {
 
 .publication-list h2 {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     margin-bottom: 20px;
     color: var(--text-color);
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 2px solid #b8b3ad;
     padding-bottom: 10px;
 }
 
@@ -570,17 +568,15 @@ footer {
 
 .interest-list li {
     margin-bottom: 12px;
-    padding-left: 20px;
+    padding-left: 28px;
     position: relative;
     font-family: 'Lato', sans-serif;
 }
 
 .interest-list li::before {
-    content: '•';
-    color: var(--accent-color);
+    content: '💡';
     position: absolute;
     left: 0;
-    font-weight: bold;
 }
 
 .contact-info p {
@@ -670,10 +666,10 @@ footer {
 
 .publication-list h2 {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     margin-bottom: 20px;
     color: var(--text-color);
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 2px solid #b8b3ad;
     padding-bottom: 10px;
 }
 
@@ -765,17 +761,15 @@ footer {
 
 .interest-list li {
     margin-bottom: 12px;
-    padding-left: 20px;
+    padding-left: 28px;
     position: relative;
     font-family: 'Lato', sans-serif;
 }
 
 .interest-list li::before {
-    content: '•';
-    color: var(--accent-color);
+    content: '💡';
     position: absolute;
     left: 0;
-    font-weight: bold;
 }
 
 .contact-info p {
@@ -865,10 +859,10 @@ footer {
 
 .publication-list h2 {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     margin-bottom: 20px;
     color: var(--text-color);
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 2px solid #b8b3ad;
     padding-bottom: 10px;
 }
 
