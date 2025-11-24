@@ -23,8 +23,8 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     color: var(--text-color);
-    /*background-color: #fdfbf7;*/
-    background-image: url('watercolor2.jpg');
+    background-color: #fdfbf7;
+    /*background-image: url('watercolor2.jpg');*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
