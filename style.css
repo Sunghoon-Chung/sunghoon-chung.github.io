@@ -23,6 +23,7 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     color: var(--text-color);
+    background-color: rgba(250, 245, 235, 0.95);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -47,7 +48,7 @@ a:hover {
 
 /* Header */
 header {
-    background-color: rgba(253, 251, 247, 0.95);
+    background-color: rgba(255, 250, 245, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     padding: 16px 0;
