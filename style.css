@@ -23,7 +23,7 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     color: var(--text-color);
-    background-color: rgba(225, 228, 231, 0.95);
+    background-color: rgba(225, 225, 225, 0.95);
     /*  background-image: url('watercolor2.jpg'); */
     background-size: cover;
     background-position: center;
@@ -376,7 +376,7 @@ main {
 }
 
 .interest-list li .emoji {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .contact-info p {
@@ -389,6 +389,15 @@ main {
 }
 
 .contact-info .emoji {
+    margin-right: 8px;
+}
+
+/* Twemoji styling */
+img.emoji {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.1em;
+    display: inline-block;
     margin-right: 8px;
 }
 
@@ -570,7 +579,7 @@ footer {
 }
 
 .interest-list li .emoji {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .contact-info p {
@@ -756,7 +765,7 @@ footer {
 }
 
 .interest-list li .emoji {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .contact-info p {

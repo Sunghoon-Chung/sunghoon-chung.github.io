@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Open+Sans:wght@400;600&family=Lato:wght@400;700&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -162,6 +163,10 @@
     </main>
 
     <script src="script.js"></script>
+    <script>
+        // Convert all emojis to images using Twemoji
+        twemoji.parse(document.body);
+    </script>
 </body>
 
 </html>
