@@ -47,9 +47,8 @@ a:hover {
 
 /* Header */
 header {
-    background-image: url('watercolor5.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(253, 251, 247, 0.95);
+    backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     padding: 16px 0;
     position: sticky;
