@@ -23,7 +23,7 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     color: var(--text-color);
-    background-color: rgba(224, 228, 232, 0.95);
+    background-color: rgba(225, 228, 231, 0.95);
     /*  background-image: url('watercolor2.jpg'); */
     background-size: cover;
     background-position: center;
@@ -371,15 +371,12 @@ main {
 
 .interest-list li {
     margin-bottom: 12px;
-    padding-left: 28px;
-    position: relative;
+    padding-left: 0;
     font-family: 'Lato', sans-serif;
 }
 
-.interest-list li::before {
-    content: '💡';
-    position: absolute;
-    left: 0;
+.interest-list li .emoji {
+    margin-right: 10px;
 }
 
 .contact-info p {
@@ -391,8 +388,8 @@ main {
     margin-bottom: 0;
 }
 
-.contact-info .email {
-    color: #555;
+.contact-info .emoji {
+    margin-right: 8px;
 }
 
 /* Footer */
@@ -568,24 +565,17 @@ footer {
 
 .interest-list li {
     margin-bottom: 12px;
-    padding-left: 28px;
-    position: relative;
+    padding-left: 0;
     font-family: 'Lato', sans-serif;
 }
 
-.interest-list li::before {
-    content: '💡';
-    position: absolute;
-    left: 0;
+.interest-list li .emoji {
+    margin-right: 10px;
 }
 
 .contact-info p {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
-}
-
-.contact-info .email {
-    color: #555;
 }
 
 /* Footer */
@@ -761,24 +751,17 @@ footer {
 
 .interest-list li {
     margin-bottom: 12px;
-    padding-left: 28px;
-    position: relative;
+    padding-left: 0;
     font-family: 'Lato', sans-serif;
 }
 
-.interest-list li::before {
-    content: '💡';
-    position: absolute;
-    left: 0;
+.interest-list li .emoji {
+    margin-right: 10px;
 }
 
 .contact-info p {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
-}
-
-.contact-info .email {
-    color: #555;
 }
 
 /* Footer */
