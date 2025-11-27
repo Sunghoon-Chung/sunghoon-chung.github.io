@@ -50,7 +50,7 @@ a:hover {
 
 /* Header */
 header {
-    background-color: #faf9f6;
+    background-color: #f6f2e8;
     backdrop-filter: blur(10px);
     /*    background-image: url('vecteezy.jpg');
     background-size: cover;
@@ -942,6 +942,7 @@ footer {
     line-height: 1.7;
     color: #4a5568;
     font-family: 'Lato', sans-serif;
+    text-align: justify;
 }
 
 .cv-inline {
