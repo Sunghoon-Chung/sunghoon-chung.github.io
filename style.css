@@ -50,7 +50,7 @@ a:hover {
 
 /* Header */
 header {
-    background-color: #deebe2;
+    background-color: #faf8f6;
     backdrop-filter: blur(10px);
     /*    background-image: url('vecteezy.jpg');
     background-size: cover;
@@ -368,6 +368,7 @@ main {
 .interest-list {
     list-style: none;
     margin: 0;
+    text-align: left;
 }
 
 .interest-list li {
@@ -388,6 +389,9 @@ main {
 .contact-info p {
     margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 0.95rem;
+    white-space: nowrap;
 }
 
 .contact-info p:last-child {
@@ -563,6 +567,7 @@ footer {
 .interest-list {
     list-style: none;
     margin: 0;
+    text-align: left;
 }
 
 .interest-list li {
@@ -583,6 +588,7 @@ footer {
 .contact-info p {
     margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
+    text-align: left;
 }
 
 /* Footer */
@@ -754,6 +760,7 @@ footer {
 .interest-list {
     list-style: none;
     margin: 0;
+    text-align: left;
 }
 
 .interest-list li {
@@ -774,6 +781,7 @@ footer {
 .contact-info p {
     margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
+    text-align: left;
 }
 
 /* Footer */
@@ -906,7 +914,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
-    padding: 60px 20px;
+    padding: 70px 30px;
 }
 
 /* Left Column */
@@ -961,7 +969,7 @@ footer {
 .right-column {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 
 .cv-section {
