@@ -50,7 +50,7 @@ a:hover {
 
 /* Header */
 header {
-    background-color: #faf8f6;
+    background-color: #ffffff;
     backdrop-filter: blur(10px);
     /*    background-image: url('vecteezy.jpg');
     background-size: cover;
@@ -1017,3 +1017,22 @@ footer {
         font-size: 2.5rem;
     }
 }
+/* Icon updates */
+.interest-list li {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.interest-list li::before {
+    content: none;
+}
+
+.interest-list li .icon {
+    width: 20px;
+    height: 20px;
+    stroke: var(--accent-color);
+    flex-shrink: 0;
+}
+
